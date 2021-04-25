@@ -64,3 +64,8 @@ public class Datasource {
 
 ```
 
+And in the UI side, in package.json, change the proxy string to "https://porfolio-page-v1.herokuapp.com/", like this:
+
+```
+"proxy": "porfolio-page-v1.herokuapp.com",
+```
